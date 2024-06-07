@@ -1,40 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Name</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div>
-            <img src="#fill#" alt="Header Logo">
-            <ul class="links">
-                <li><a href="#">Header Link 1</a></li>
-                <li><a href="#">Header Link 2</a></li>
-                <li><a href="#">Header Link 3</a></li>
-            </ul>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Name</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container-top-header">
+                <img src="./images/cat-mom.png" alt="Header Logo" 
+                height="80px" width="80px"/>
+                <ul class="links">
+                    <li><a href="#">Header Link 1</a></li>
+                    <li><a href="#">Header Link 2</a></li>
+                    <li><a href="#">Header Link 3</a></li>
+                </ul>
+            </div>
 
-        <div class="container-block">
             <div class="container-block">
-                <p>This Website is awesome</p>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign Up</button>
+                <div class="container-block">
+                    <p>This Website is awesome</p>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+            <img src="./images/cat-cleaning.jpg" alt="image description" 
+            height="280px" width="420px"/>
+        </header>
+
+        <div class="content">
+            <div class="container-block">
+                <p>Some random information</p>
+                <div class="container-flex">
+                    <div class="information">
+                        <img src="./images/all-i-need-is-cat.jpg" alt="image description" 
+                        height="250px" width="180px"/>
+                        <p>this is some subtext under an ilustration or image</p>
+                    </div>
+                    <div class="information">
+                        <img src="./images/baby-cat.jpg" alt="image description" 
+                        height="250px" width="180px"/>
+                        <p>this is some subtext under an ilustration or image</p>
+                    </div>
+                    <div class="information">
+                        <img src="./images/egyptian-cat.jpg" alt="image description" 
+                        height="250px" width="180px"/>
+                        <p>this is some subtext under an ilustration or image</p>
+                    </div>
+                    <div class="information">
+                        <img src="./images/cat-in-black-background.jpg" alt="image description" 
+                        height="250px" width="180px"/>
+                        <p>this is some subtext under an ilustration or image</p>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div class="content">
+            <p>This is an ispiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p>-Thor, God of Thunder</p>
+            <div class="container-sign-up">
+                <div class="text">
+                    <p>Call to action! It's time!</p>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button>Sign up</button>
+            </div>
 
-    </header>
-
-    <content>
-
-    </content>
-
-    <footer>
-
-    </footer>
-    
-</body>
+        <footer>
+            <p>Copyright © The Odin Project 2021</p>
+        </footer>   
+    </body>
 </html>
