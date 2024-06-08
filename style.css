@@ -7,3 +7,63 @@
 body {
     
 }
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.container-top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 200px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-style: 800;
+    color: #f9faf8;
+}
+
+#hero-secondary-text,
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container-flex-header {
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.container-block p{
+    padding-bottom: 6px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 6px 20px;
+    margin: 6px 0px;
+    
+}
