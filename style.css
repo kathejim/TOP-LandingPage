@@ -1,7 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 1px solid red;
+    burder: 1px solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header,
@@ -32,7 +33,7 @@ a {
 
 #hero-main-text {
     font-size: 48px;
-    font-style: 800;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
@@ -49,14 +50,14 @@ a {
 .container-flex-header {
     padding: 30px 200px;
     display: flex;
-    justify-content: space-around;
-    gap: 15px;
+    gap: 20px;
 }
 
 button {
     border-radius: 10px;
     background-color: #3882f6;
     color: #f9faf8;
+    border: solid #3882f6;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -74,11 +75,13 @@ button {
 
 .container-flex-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0px 300px 80px 300px;
 }
 
 .information {
+    height: 180px;
+    width: 140px;
     text-align: center;
 }
 
@@ -87,13 +90,14 @@ button {
     width: 140px;
     border-radius: 15%;
 }
+
 .container-quote {
     background-color: #e5e7eb;
     padding: 100px 0px;
 }
 #quote {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: lighter;
     font-style: italic;
     text-align: left;
     padding: 0px 300px;
@@ -101,8 +105,8 @@ button {
 }
 
 #quote-author {
-    font-size: 12px;
-    font-weight: 900;
+    font-size: 14px;
+    font-weight: bolder;
     color: #1f2937;
     text-align: right;
     padding: 0px 315px;
